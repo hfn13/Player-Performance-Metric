@@ -31,7 +31,7 @@ if selections == 'Graphs':
     width = 0.5
     
     col1, col2 = st.columns(2)
-    metric1 = st.selectbox('Metric1', Nondies.columns[1:])
+    metric1 = st.selectbox('Metric1', Nondies.columns[2:])
     with col1:
         plt.figure(figsize=[15,10])
         plt.bar(s_indexes, Nondies[metric1])
@@ -49,7 +49,7 @@ if selections == 'Graphs':
     if st.checkbox('Compare with another metric'):
         
     
-        metric2 = st.selectbox('Metric2', Nondies.columns[1:])
+        metric2 = st.selectbox('Metric2', Nondies.columns[2:])
     
     
         
