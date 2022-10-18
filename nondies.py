@@ -3,6 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
+from st_aggrid import AgGrid
 
 path = 'Nondies vs Cuea.txt'
 # Nondies = pd.read_csv('Nondies.csv')
@@ -24,7 +25,7 @@ selections = st.sidebar.selectbox('',menu)
 
 if selections == 'Display Data':
     st.subheader("Display Data")
-    st.dataframe(df)
+    AgGrid(df)
     
     if st.checkbox("Show data"):
         st.write("Data Shape: ")
