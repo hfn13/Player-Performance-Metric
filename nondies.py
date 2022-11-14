@@ -102,49 +102,49 @@ if selections == 'Graphs':
             plt.show()
             st.pyplot(plt)
             
-if selections == 'Machine Learning':
-#     from sklearn.cluster import KMeans
+# if selections == 'Machine Learning':
+# #     from sklearn.cluster import KMeans
     
-    st.write('Using Machine Learning, we can group the athletes based on the available data.')
-    st.write('Players with statistics closer to each other are clumped together.')
-    st.write('We can first try to figure out how many clusters would be ideal, using the Elbow Method.')
+#     st.write('Using Machine Learning, we can group the athletes based on the available data.')
+#     st.write('Players with statistics closer to each other are clumped together.')
+#     st.write('We can first try to figure out how many clusters would be ideal, using the Elbow Method.')
 
-    def convert_time(time):
-        time = time.split(':')
-        x=time[0]
-        y=time[1]
+#     def convert_time(time):
+#         time = time.split(':')
+#         x=time[0]
+#         y=time[1]
     
-        return int((int(x) * 60) + int(y))
+#         return int((int(x) * 60) + int(y))
     
-    df['Duration Total (min:sec)']=df['Duration Total (min:sec)'].apply(convert_time)
-    df['Duration Speed Hi-Inten (min:sec)']=df['Duration Speed Hi-Inten (min:sec)'].apply(convert_time)
+#     df['Duration Total (min:sec)']=df['Duration Total (min:sec)'].apply(convert_time)
+#     df['Duration Speed Hi-Inten (min:sec)']=df['Duration Speed Hi-Inten (min:sec)'].apply(convert_time)
     
     
-    def position_codes(position):
-        if position == 'Forward':
-            return 0
-        else:
-            return 1
+#     def position_codes(position):
+#         if position == 'Forward':
+#             return 0
+#         else:
+#             return 1
     
-    df[' Position'] = df[' Position'].apply(position_codes)
-    import sklearn
-    from sklearn.clusters import KMeans
+#     df[' Position'] = df[' Position'].apply(position_codes)
+#     import sklearn
+#     from sklearn.clusters import KMeans
     
-#     import joblib
-#     from joblib import load
-#     model = load(filename='perfomance_metric.joblib')
-#     model.predict(df[2:])
-    wcss = []
-    for k in range(1, 11):
-        km= KMeans(n_clusters = k, init = 'k-means++', max_iter = 300, n_init = 10, random_state = 0)
-        km.fit(df[2:])
-        wcss.append(km.inertia_/1000000)
+# #     import joblib
+# #     from joblib import load
+# #     model = load(filename='perfomance_metric.joblib')
+# #     model.predict(df[2:])
+#     wcss = []
+#     for k in range(1, 11):
+#         km= KMeans(n_clusters = k, init = 'k-means++', max_iter = 300, n_init = 10, random_state = 0)
+#         km.fit(df[2:])
+#         wcss.append(km.inertia_/1000000)
     
-    plt.plot(range(1, 11), wcss)
-    plt.title('The Elbow Method', fontsize = 20)
-    plt.xlabel('No. of Clusters')
-    plt.ylabel('wcss')
-    plt.show()
-    st.pyplot(plt)
+#     plt.plot(range(1, 11), wcss)
+#     plt.title('The Elbow Method', fontsize = 20)
+#     plt.xlabel('No. of Clusters')
+#     plt.ylabel('wcss')
+#     plt.show()
+#     st.pyplot(plt)
 
     
