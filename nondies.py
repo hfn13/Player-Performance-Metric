@@ -5,12 +5,17 @@ import matplotlib.pyplot as plt
 import numpy as np
 from st_aggrid import AgGrid
 
-path = 'Nondies vs Cuea.txt'
+path1 = 'Clusters Nondies vs Cuea.txt'
+path2 = 'Clusters Nondies vs Impala.txt'
+path3 = 'Clusters Nondies vs KCB.txt'
+
+paths = [path1,path2,path3]
+
 # Nondies = pd.read_csv('Nondies.csv')
 st.set_page_config(layout="centered", initial_sidebar_state="expanded", page_title = "Player Performance Metrics")
 
 st.sidebar.header("Menu")
-data = st.sidebar.file_uploader("Upload Dataset", type=["csv", "txt", "xlsx"])
+data = st.sidebar.sidebar("Match", paths)
 
 
 
@@ -53,7 +58,7 @@ if selections == 'Graphs':
     width = 0.5
     
     col1, col2 = st.columns(2)
-    metric1 = st.selectbox('Metric1', df.columns[2:-1])
+    metric1 = st.selectbox('Metric1', df.columns[2:-2])
     with col1:
         plt.figure(figsize=[15,10])
         plt.bar(s_indexes, df[metric1])
@@ -71,7 +76,7 @@ if selections == 'Graphs':
     if st.checkbox('Compare with another metric'):
         
     
-        metric2 = st.selectbox('Metric2', df.columns[2:-1])
+        metric2 = st.selectbox('Metric2', df.columns[2:-2])
     
     
         
