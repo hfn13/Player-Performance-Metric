@@ -15,7 +15,7 @@ paths = [path1,path2,path3]
 st.set_page_config(layout="centered", initial_sidebar_state="expanded", page_title = "Player Performance Metrics")
 
 st.sidebar.header("Menu")
-data = st.sidebar.selectbox("Match", paths)
+data = st.sidebar.selectbox(" Select Match", paths)
 
 
 
@@ -23,7 +23,7 @@ if data is not None:
     df = pd.read_csv(data)
     
 else:
-    df = pd.read_csv(path)
+    df = pd.read_csv(path1)
 
 menu=['Display Data', 'Graphs']
 selections = st.sidebar.selectbox('',menu)
