@@ -1,4 +1,4 @@
-,,Athlete,Duration Total (min:sec),Duration Speed Hi-Inten (min:sec),Distance Total(m),Distance Rate,Distance Speed Hi-Inten,Speed Max,Sprints Total,Sprints Hi-Inten,M bolic Rate AvgSpeed Zone Total,Metabolic Equivalent Distance,Position,clusters
+,Athlete,Duration Total (min:sec),Duration Speed Hi-Inten (min:sec),Distance Total(m),Distance Rate,Distance Speed Hi-Inten,Speed Max,Sprints Total,Sprints Hi-Inten,M bolic Rate AvgSpeed Zone Total,Metabolic Equivalent Distance,Position,clusters
 0,Wesley Odhiambo,116:58:00,1:14,5093,44,342,26.2,97,20,18.9,5881,Forward,1
 1,Ryan Odua,130:35:00,3:15,6618,51,889,26.9,149,53,18.7,7648,Forward,0
 2,Boniface Amimo,122:52:00,0:54,5580,46,248,24.0,76,14,18.1,6448,Forward,1
