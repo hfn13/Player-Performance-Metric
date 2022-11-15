@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from st_aggrid import AgGrid
 
-path1 = 'Clusters Nondies vs Cuea.txt'
+path1 = 'Clusters Nondies vs CUEA.txt'
 path2 = 'Clusters Nondies vs Impala.txt'
 path3 = 'Clusters Nondies vs KCB.txt'
 
