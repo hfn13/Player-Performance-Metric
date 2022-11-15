@@ -15,7 +15,7 @@ paths = [path1,path2,path3]
 st.set_page_config(layout="centered", initial_sidebar_state="expanded", page_title = "Player Performance Metrics")
 
 st.sidebar.header("Menu")
-data = st.sidebar.sidebar("Match", paths)
+data = st.sidebar.selectbox("Match", paths)
 
 
 
