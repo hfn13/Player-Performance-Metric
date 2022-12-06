@@ -8,8 +8,9 @@ from st_aggrid import AgGrid
 path1 = 'Clusters Nondies vs CUEA.txt'
 path2 = 'Clusters Nondies vs Impala.txt'
 path3 = 'Clusters Nondies vs KCB.txt'
+path4 = 'Clusters Nondies vs USIU.txt'
 
-paths = [path1,path2,path3]
+paths = [path1,path2,path3,path4]
 
 # Nondies = pd.read_csv('Nondies.csv')
 st.set_page_config(layout="centered", initial_sidebar_state="expanded", page_title = "Player Performance Metrics")
