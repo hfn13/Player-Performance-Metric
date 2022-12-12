@@ -11,7 +11,7 @@ path3 = 'Clusters Nondies vs KCB.txt'
 path4 = 'Clusters Nondies vs USIU.txt'
 path5 = 'Clusters Nondies vs Kisumu.txt'
 
-paths = [path1,path2,path3,path4]
+paths = [path1,path2,path3,path4,path5]
 
 # Nondies = pd.read_csv('Nondies.csv')
 st.set_page_config(layout="centered", initial_sidebar_state="expanded", page_title = "Player Performance Metrics")
