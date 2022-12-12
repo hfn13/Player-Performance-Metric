@@ -9,6 +9,7 @@ path1 = 'Clusters Nondies vs CUEA.txt'
 path2 = 'Clusters Nondies vs Impala.txt'
 path3 = 'Clusters Nondies vs KCB.txt'
 path4 = 'Clusters Nondies vs USIU.txt'
+path5 = 'Clusters Nondies vs Kisumu.txt
 
 paths = [path1,path2,path3,path4]
 
