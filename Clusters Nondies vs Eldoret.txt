@@ -1,4 +1,4 @@
-,Athlete,Duration Total,Duration Speed Hi-Inten,Distance  Total,Distance Rate,Distance Speed Hi-Inten,Speed Max,Sprints Total,Sprints  Hi-Inten,M bolic Rate AvgSpeed Zone Total,Metabolic EquivalentDistance,Positions,clusters
+,Athlete,Duration Total (min:sec),Duration Speed Hi-Inten (min:sec),Distance Total (m),Distance Rate (m/min),Distance Speed Hi-Inten (m),Speed Max (km/h),Sprints Total (num),Sprints Hi-Inten (num),M bolic Rate AvgSpeed Zone Total (watts/kg),Metabolic EquivalentDistance,clusters
 0,Nyaenya Moseti,85:35:00,3:10,4060,48,1021,32.6,80,49,24.0,4693,Back,1
 1,Alvin Marube,121:08:00,3:05,5271,44,1004,32.3,99,43,23.9,6092,Back,0
 2,Wafula Sankara,76:39:00,3:07,3592,48,967,31.7,77,44,23.7,4152,Back,1
