@@ -1,0 +1,11 @@
+,Athlete,Duration Total,Duration Speed Hi-Inten,Distance  Total,Distance Rate,Distance Speed Hi-Inten,Speed Max,Sprints Total,Sprints  Hi-Inten,M bolic Rate AvgSpeed Zone Total,Metabolic EquivalentDistance,Positions,clusters
+0,Nyaenya Moseti,85:35:00,3:10,4060,48,1021,32.6,80,49,24.0,4693,Back,1
+1,Alvin Marube,121:08:00,3:05,5271,44,1004,32.3,99,43,23.9,6092,Back,0
+2,Wafula Sankara,76:39:00,3:07,3592,48,967,31.7,77,44,23.7,4152,Back,1
+3,Fred Shisia,108:30:00,4:50,5282,49,1463,31.2,130,68,23.6,6104,Forward,0
+4,Ian Mumbwani,121:18:00,4:30,6468,54,1298,29.7,124,67,23.6,7475,Back,0
+5,Fidens Tony,120:03:00,3:41,6435,54,1073,28.7,111,45,23.5,7437,Back,0
+6,Brian Amaitsa,120:03:00,4:20,5021,66,956,28.6,122,69,24.5,4752,Forward,0
+7,Brian Sinei,109:40:00,1:36,4478,41,439,23.7,81,26,18.2,5175,Forward,0
+8,Collins Oduori,108:40:00,1:08,4494,42,309,22.6,65,20,18.0,5192,Forward,0
+9,Trevor Otieno,76:19:00,0:31,2722,36,133,18.1,48,8,12.9,3146,Forward,1
