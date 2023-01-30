@@ -1,4 +1,4 @@
-,Athlete,Duration Total,Duration Speed Hi-Inten,Distance Total,Distance Rate,Distance Speed Hi-Inten,Speed Max,Sprints Total,Sprints  Hi-Inten,M bolic Rate AvgSpeed Zone Total,Metabolic EquivalentDistance,Position,Cluster
+,Athlete,Duration Total (min:sec),Duration Speed Hi-Inten (min:sec),Distance Total (m),Distance Rate (m/min),Distance Speed Hi-Inten (m),Speed Max (km/h),Sprints Total (num),Sprints Hi-Inten (num),M bolic Rate AvgSpeed Zone Total (watts/kg),Metabolic EquivalentDistance,clusters
 0,Ben Salem,111:53:00,3:23,6414,58,1045,30.1,107,53,23.7,7412,Back,0
 1,Fred Shisia,109:40:00,5:53,6340,58,1722,30.3,155,85,23.7,7327,Forward,0
 2,Charles Odhiambo,109:56:00,4:19,6002,55,1395,31.9,108,55,23.8,6936,Back,0
